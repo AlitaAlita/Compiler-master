@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 # compiler
-
 compiler1为词法分析器
-
 compiler2为LL1语法分析器
+compiler3为LR1语法分析器
 测试数据暂定为已消除左递归。
 E->TG
 G->+TG
@@ -15,10 +13,5 @@ S->/FS
 S->ε
 F->(E)
 F->i
-
 i+i*i#
 
-compiler3为LR1语法分析器
-=======
-# Compiler-master
->>>>>>> 0db364a82c37782f8758978626b93f7fbc49f8bc
