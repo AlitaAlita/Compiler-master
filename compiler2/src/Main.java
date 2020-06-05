@@ -45,16 +45,16 @@ public class Main {
 
         Scanner sc  =new Scanner(System.in);
 
-        text="E->TG\n" +
-                "G->+TG\n" +
-                "G->-TG\n" +
-                "G->ε\n" +
-                "T->FS\n" +
-                "S->*FS\n" +
-                "S->/FS\n" +
-                "S->ε\n" +
-                "F->(E)\n" +
-                "F->i";
+//        text="E->TG\n" +
+//                "G->+TG\n" +
+//                "G->-TG\n" +
+//                "G->ε\n" +
+//                "T->FS\n" +
+//                "S->*FS\n" +
+//                "S->/FS\n" +
+//                "S->ε\n" +
+//                "F->(E)\n" +
+//                "F->i";
 //        System.out.println(text);
 //        controller.analysisLang(text);
 //        System.out.println(str);
