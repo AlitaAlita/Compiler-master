@@ -114,8 +114,12 @@ public class Controller {
 
         lang = new LL1();
         ArrayList<String> array = new ArrayList<String>();
-        TreeSet nvSet = new TreeSet<Character>();
+     //   TreeSet nvSet = new TreeSet<Character>();
         setLL1(array,text);
+        //    ArrayList<String> array1=lang.direct_left_recursion(array,nvSet);
+        lang.setLL1Array(array);
+        lang.initNvNt();
+        TreeSet nvSet = lang.getNvSet();
         ArrayList<String> array1=lang.direct_left_recursion(array,nvSet);
         lang.setLL1Array(array1);//文法表达式集合
         lang.setS('E');//开始符
