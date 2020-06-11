@@ -156,7 +156,7 @@ public class LL1 {
                 for(int j=0;j<analy.size();j++){                     //寻找该字母的另一个产生式，以便寻找P->βP'的β
                     if((analy.get(j).left == analy.get(i).left)){
                         if (analy.get(j).left != analy.get(j).right.charAt(0)){
-                            for(char k='G';k<='Z';k++){                 //遍历字母集，寻找可以替代的字母
+                            for(char k='A';k<='Z';k++){                 //遍历字母集，寻找可以替代的字母
                                 int flag =0;
                                 Iterator it = NvSet.iterator();
                                 while (it.hasNext()){
